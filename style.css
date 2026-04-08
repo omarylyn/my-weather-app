@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f4a7b9;
+    color: #fff;
+    font-weight: 600;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+h2{
+    font-family: 'Playfair Display', serif;
+}
+
+h3{
+    font-size: 12px;
+    color: #3a1a2a;
+    font-weight: 400;
+
+}
+h2, h3, p {
+    color: #3a1a2a;
+}
+
+.container{
+    background: #f4a7b9;
+    padding: 32px;
+    width: 380px;
+    border-radius: 24px;
+
+    display: flex;
+    flex-direction: column;
+       
+
+}
+.main-card{
+    background: rgba(255,255,255,0.15);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px 0;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    backdrop-filter: blur(10px);
+}
+.top-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#temp{
+    font-size: 48px;
+    margin: 10px 0;
+}
+
+
+#temp span{
+    font-size: 20px;
+}
+
+#condition{
+    font-size: 28px;
+    letter-spacing: 1px;
+    opacity: 0.8;
+    margin-bottom: 20px;
+    margin-top: 27px;
+    align-items: center;
+}
+
+.extra-info{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 38px;
+}
+
+.extra-info p{
+    font-size: 28px;
+}
+
+.extra-info span{
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+.bottom-row{
+    display: flex;
+    gap: 12px;
+    margin-bottom: 40px;
+}
+
+.card{
+    flex: 1;
+    height: 120px;
+    background:  #f4a7b9;
+    border-radius: 12px;
+
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px); 
+
+}
+
+.card img{
+    width: 40px;
+    height: 40px;
+    
+   
+}
+
+#input-box{
+    width: 250px;
+    height: 40px;
+    border: 1px solid #f4a7b9;
+    border-radius: 20px;
+    padding: 0 15px;
+    outline: none;
+    background: white;
+    color: #3a1a2a;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.search-row{
+    display: flex;
+    gap: 10px;
+    
+    
+}
+.search-row button{
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    padding: 0 15px;
+    background-color: #fff;
+    color: #3a1a2a;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
